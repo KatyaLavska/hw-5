@@ -215,6 +215,7 @@ body {
 
 /* Feature */
 .feature-title {
+    display: none;
     margin: 0;  
 }
 
@@ -320,6 +321,10 @@ body {
 
 .work-list-item {
     position: relative; 
+}
+
+.work-list-img {
+    display: block;
 }
 
 .work-list-actions {
@@ -588,6 +593,7 @@ body {
 
 /* portfolio */
 .portfolio-title {
+    display: none;
     margin: 0;
 }
 
@@ -643,11 +649,6 @@ body {
     transition: box-shadow var(--time-cubic-bezier);        
 }
 
-.portfolio-list-actions {
-    position: relative;
-    overflow: hidden;
-}
-
 .portfolio-list-item:not(:nth-child(3n)) {
     margin-right: 30px;
 }
@@ -666,6 +667,15 @@ body {
     transform: translateY(0);
 }
 
+.portfolio-list-actions {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-list-img {
+    display: block;
+    width: 100%;
+}
 
 .portfolio-list-title {
     margin-top: 20px;
